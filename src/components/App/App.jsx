@@ -45,7 +45,6 @@ export const App = () => {
       <div className={css.wrapper}>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            title="Please leave feedback"
             onLeaveFeedback={feedbackHandler}
             options={['good', 'neutral', 'bad']}
           />
